@@ -67,6 +67,15 @@ int main()
 			
 			player1sprite.setPosition(Cposition + Vector2f(0, 0.3));
 		}
+		if (Keyboard::isKeyPressed(Keyboard::Space)) {
+			
+
+			player1sprite.setPosition(Cposition + Vector2f(0, -1));
+			sleep(seconds(1));
+			player1sprite.setPosition(Cposition + Vector2f(0, 1));
+
+		
+		}
 
 
 
@@ -76,12 +85,6 @@ int main()
 		window.display();
 
 
-
-
-
 	}
-
-
-
 	return 0;
 }
