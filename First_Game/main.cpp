@@ -23,6 +23,7 @@ int main()
 		player1sprite.setTexture(player1text);
 		int Xindex = 0;
 		int Yindex = 0;
+			
 
 		player1sprite.setTextureRect(IntRect(Xindex * 64, Yindex * 64, 64, 64));
 
